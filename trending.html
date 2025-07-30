@@ -33,6 +33,24 @@
     </section>
   </main>
 
+<!-- Disqus Comment Section -->
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = window.location.pathname;
+  };
+
+  (function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://ondablock.disqus.com/embed.js'; // replace YOUR-SHORTNAME
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the comments.</noscript>
+
+  
   <footer>
     <p>© 2025 On The Block. All rights reserved.</p>
   </footer>
