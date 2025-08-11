@@ -1,98 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Trending | On The Block</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>On The Block — Trending</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="scripts.js"></script>
 </head>
 <body>
-  <header>
-    <h1>On The Block</h1>
+
+<header>
+  <div class="container">
+    <div class="brand">
+      <h1>On The Block</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="history.html">History</a>
       <a href="trending.html">Trending</a>
       <a href="deep-dives.html">Deep Dives</a>
+      <a href="artist-index.html">Artist Index</a>
+      <a href="timeline.html">Timeline</a>
       <a href="about.html">About</a>
     </nav>
-  </header>
-
-  <main>
-    <section>
-      <h2>Trending Topics</h2>
-      <article>
-        <h3>Kendrick’s Verse: Breaking It Down</h3>
-        <p>Kendrick Lamar shook the internet again. Here's what made this verse go viral...</p>
-      </article>
-
-      <article>
-        <h3>Ye vs. Drake: Cold War or Truce?</h3>
-        <p>Breaking down the timeline and what fans are saying this week.</p>
-      </article>
-
-<article>
-  <h3>Who was Young Pappy?</h3>
-  <p>Breaking down the timeline and what Chicago streets remember...</p>
-
-  <!-- YouTube Embed -->
-  <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/ifY-YR7OVE0?si=Ah8_mpjD57EsG98n"
-      title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
   </div>
+</header>
 
-  <!-- TikTok Embed -->
-  <blockquote class="tiktok-embed"
-    cite="https://www.tiktok.com/@meme.2.o/video/7493571919262911790"
-    data-video-id="7493571919262911790"
-    style="max-width: 605px;min-width: 325px;">
-    <section>
-      <a target="_blank" title="@meme.2.o" href="https://www.tiktok.com/@meme.2.o?refer=embed">@meme.2.o</a>
-      IYKYK 🕊️
-      <a title="youngpappy" target="_blank" href="https://www.tiktok.com/tag/youngpappy?refer=embed">#youngpappy</a>
-    </section>
-  </blockquote>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+<div class="container">
+  <main>
+    <article id="keef-2025">
+      <h3>Chief Keef in 2025: Legacy, Tours, and a New Wave of Fans</h3>
+      <p>From viral street clips to festival main stages, Keef’s influence keeps looping back into the culture. Younger artists reference <em>Finally Rich</em> like scripture — and the crowd still screams when “Faneto” drops.</p>
+      <div class="embed-container">
+        <iframe src="https://www.youtube.com/embed/4d-GwzD6Kw4" title="Faneto Live" allowfullscreen></iframe>
+      </div>
+    </article>
 
-  <!-- Tweet Embed -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      Young Pappy would’ve turned 30 today! Many Chicago natives believe he would’ve been one of the biggest Chicago rappers if he was still alive. 🕊️
-      <a href="https://t.co/tBOOSt3u5z">pic.twitter.com/tBOOSt3u5z</a>
-    </p>&mdash; SAY CHEESE! 👄🧀 (@SaycheeseDGTL)
-    <a href="https://twitter.com/SaycheeseDGTL/status/1921413425118224681?ref_src=twsrc%5Etfw">May 11, 2025</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</article>
+    <article id="durk-herbo">
+      <h3>Lil Durk &amp; G Herbo Reflect on Drill’s First Era</h3>
+      <p>Interviews in 2024–2025 kept circling back to Chicago’s early 2010s. The takeaway: survival, entrepreneurship, and mentorship. The music hardened, then matured.</p>
+      <div class="embed-container">
+        <iframe src="https://www.youtube.com/embed/ifY-YR7OVE0" title="Interview clip" allowfullscreen></iframe>
+      </div>
+    </article>
 
+    <article id="otf-300">
+      <h3>OTF vs 300 — Beef, Fallout, and What It Taught the Scene</h3>
+      <p>Neighborhood history, crews, and YouTube-era callouts shaped an internet-native rap war. The documentation is messy — but the lessons are clear about safety, security, and the cost of fame.</p>
+    </article>
 
+    <article id="rico-street">
+      <h3>Rico Recklezz: Street Freestyles to Internet Legend</h3>
+      <p>Rico’s raw delivery and relentless output turned shaky street footage into viral moments. The charisma is the point — unfiltered and unbothered.</p>
+    </article>
 
-      
-    </section>
+    <article id="tiktok-drill">
+      <h3>Drill Flows on TikTok in 2025</h3>
+      <p>Producers chop classic patterns, kids flip dances to Chicago cadences, and the algorithm keeps the energy cycling.</p>
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@meme.2.o/video/7493571919262911790" data-video-id="7493571919262911790" style="max-width: 605px;min-width: 325px;">
+        <section>Loading TikTok…</section>
+      </blockquote>
+      <script async src="https://www.tiktok.com/embed.js"></script>
+    </article>
+
+    <article>
+      <h3>Join the Discussion</h3>
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () { this.page.url = window.location.href; this.page.identifier = window.location.pathname; };
+        (function () { var d=document,s=d.createElement('script'); s.src='https://YOUR-SHORTNAME.disqus.com/embed.js'; s.setAttribute('data-timestamp',+new Date()); (d.head||d.body).appendChild(s); })();
+      </script>
+      <noscript>Please enable JavaScript to view comments.</noscript>
+    </article>
   </main>
+</div>
 
-<!-- Disqus Comment Section -->
-<div id="disqus_thread"></div>
-<script>
-  var disqus_config = function () {
-    this.page.url = window.location.href;
-    this.page.identifier = window.location.pathname;
-  };
+<footer>
+  <div class="container">
+    <div>© 2025 On The Block — a hip hop history & culture project.</div>
+  </div>
+</footer>
 
-  (function () {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://ondablock.disqus.com/embed.js'; // replace YOUR-SHORTNAME
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the comments.</noscript>
-
-  
-  <footer>
-    <p>© 2025 On The Block. All rights reserved.</p>
-  </footer>
 </body>
 </html>
