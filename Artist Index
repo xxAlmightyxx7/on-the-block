@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>On The Block — Artist Index</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">
+      <h1>On The Block</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="trending.html">Trending</a>
+      <a href="deep-dives.html">Deep Dives</a>
+      <a href="artist-index.html">Artist Index</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <section class="hero">
+    <h2>Artist Index (Searchable)</h2>
+    <p>Browse Chicago drill artists from A–Z. Tap a name to jump to their bio with history, discography, and related rappers.</p>
+    <div class="searchbar">
+      <input id="artistSearch" type="text" placeholder="Search artists, crews, or tracks…">
+    </div>
+  </section>
+
+  <section class="cards">
+    
+    <a class="artist-card" href="deep-dives.html#chief-keef">
+      <img src="images/chief_keef.svg" alt="Chief Keef">
+      <div>
+        <h4>Chief Keef</h4>
+        <div class="small">Sosa, 300 / GBE</div>
+        <div class="small">Notables: I Don't Like; Love Sosa; Faneto</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#lil-durk">
+      <img src="images/lil_durk.svg" alt="Lil Durk">
+      <div>
+        <h4>Lil Durk</h4>
+        <div class="small">OTF</div>
+        <div class="small">Notables: Dis Ain't What U Want; All My Life</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#g-herbo">
+      <img src="images/g_herbo.svg" alt="G Herbo">
+      <div>
+        <h4>G Herbo</h4>
+        <div class="small">NLMB</div>
+        <div class="small">Notables: PTSD; Kill Sh*t</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#lil-bibby">
+      <img src="images/lil_bibby.svg" alt="Lil Bibby">
+      <div>
+        <h4>Lil Bibby</h4>
+        <div class="small">Free Crack</div>
+        <div class="small">Notables: You Ain't Gang</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#king-louie">
+      <img src="images/king_louie.svg" alt="King Louie">
+      <div>
+        <h4>King Louie</h4>
+        <div class="small">Drill pioneer</div>
+        <div class="small">Notables: Val Venis; B.O.N.</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#fredo-santana">
+      <img src="images/fredo_santana.svg" alt="Fredo Santana">
+      <div>
+        <h4>Fredo Santana</h4>
+        <div class="small">GBE</div>
+        <div class="small">Notables: Trappin' Ain't Dead</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#lil-reese">
+      <img src="images/lil_reese.svg" alt="Lil Reese">
+      <div>
+        <h4>Lil Reese</h4>
+        <div class="small">300 / GBE</div>
+        <div class="small">Notables: Us; Traffic</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#rondonumbanine">
+      <img src="images/rondonumbanine.svg" alt="RondoNumbaNine">
+      <div>
+        <h4>RondoNumbaNine</h4>
+        <div class="small">600</div>
+        <div class="small">Notables: Life of a Savage</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#la-capone">
+      <img src="images/la_capone.svg" alt="L'A Capone">
+      <div>
+        <h4>L'A Capone</h4>
+        <div class="small">600</div>
+        <div class="small">Notables: Play For Keeps</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#young-pappy">
+      <img src="images/young_pappy.svg" alt="Young Pappy">
+      <div>
+        <h4>Young Pappy</h4>
+        <div class="small">MOB</div>
+        <div class="small">Notables: 2 Cups; Homicide</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#fbg-duck">
+      <img src="images/fbg_duck.svg" alt="FBG Duck">
+      <div>
+        <h4>FBG Duck</h4>
+        <div class="small">FBG</div>
+        <div class="small">Notables: Slide</div>
+      </div>
+    </a>
+    
+
+    <a class="artist-card" href="deep-dives.html#rico-recklezz">
+      <img src="images/rico_recklezz.svg" alt="Rico Recklezz">
+      <div>
+        <h4>Rico Recklezz</h4>
+        <div class="small">Independent</div>
+        <div class="small">Notables: Recklezz Conduct</div>
+      </div>
+    </a>
+    
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <div>© 2025 On The Block — a hip hop history & culture project.</div>
+  </div>
+</footer>
+
+</body>
+</html>
