@@ -1,41 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>On The Block</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>On The Block — Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="scripts.js"></script>
 </head>
 <body>
-  <header>
-    <h1>On The Block</h1>
+
+<header>
+  <div class="container">
+    <div class="brand">
+      <h1>On The Block</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="history.html">History</a>
       <a href="trending.html">Trending</a>
       <a href="deep-dives.html">Deep Dives</a>
+      <a href="artist-index.html">Artist Index</a>
+      <a href="timeline.html">Timeline</a>
       <a href="about.html">About</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section>
-      <h2>Welcome to On The Block</h2>
-      <p>Your home for all things hip hop — past, present, and future. Dive into trending convos, explore rap’s roots, and get deep on the culture.</p>
-    </section>
+<div class="container">
+  <section class="hero">
+    <h2>Chicago Drill — History, Trends, and Everything People Are Talking About</h2>
+    <p>Part encyclopedia, part live feed. We document the roots and evolution of drill — from South Side YouTube drops to global dominance — and track what’s buzzing today.</p>
+  </section>
 
-    <section>
-      <h3>Featured Topics</h3>
-      <ul>
-        <li><a href="trending.html">Is Boom Bap making a comeback?</a></li>
-        <li><a href="deep-dives.html">Lyric Breakdown: “The Heart Part V”</a></li>
-        <li><a href="history.html">The Birth of the Bronx Sound</a></li>
-      </ul>
-    </section>
-  </main>
+  <section>
+    <h3>Featured Stories</h3>
+    <div class="grid">
+      <a class="card" href="deep-dives.html#drill-history">
+        <img src="images/chief_keef.svg" alt="Chief Keef">
+        <div class="meta">Deep Dive</div>
+        <h3>The 2012 Drill Explosion</h3>
+        <p>How “I Don’t Like” and a flood of street videos rewired rap’s sound and industry.</p>
+      </a>
+      <a class="card" href="trending.html#keef-2025">
+        <img src="images/lil_durk.svg" alt="Lil Durk">
+        <div class="meta">Trending</div>
+        <h3>Where Chicago Drill Artists Are Now (2025)</h3>
+        <p>From breakout stars to quiet legends — a look at the scene’s current landscape.</p>
+      </a>
+      <a class="card" href="deep-dives.html#king-louie">
+        <img src="images/king_louie.svg" alt="King Louie">
+        <div class="meta">Artist Bio</div>
+        <h3>The Rise of King Louie</h3>
+        <p>An architect of the sound: flows, tapes, and influence that sparked a wave.</p>
+      </a>
+    </div>
+  </section>
+</div>
 
-  <footer>
-    <p>© 2025 On The Block. All rights reserved.</p>
-  </footer>
+<footer>
+  <div class="container">
+    <div>© 2025 On The Block — a hip hop history & culture project.</div>
+  </div>
+</footer>
+
 </body>
 </html>
