@@ -1,38 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hip Hop History | On The Block</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>On The Block — Timeline</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="scripts.js"></script>
 </head>
 <body>
-  <header>
-    <h1>On The Block</h1>
+
+<header>
+  <div class="container">
+    <div class="brand">
+      <h1>On The Block</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="history.html">History</a>
       <a href="trending.html">Trending</a>
       <a href="deep-dives.html">Deep Dives</a>
+      <a href="artist-index.html">Artist Index</a>
+      <a href="timeline.html">Timeline</a>
       <a href="about.html">About</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section>
-      <h2>History of Hip Hop</h2>
-      <ul>
-        <li><strong>1970s:</strong> The Bronx, block parties, Kool Herc</li>
-        <li><strong>1980s:</strong> Run-D.M.C., Rakim, Public Enemy</li>
-        <li><strong>1990s:</strong> Biggie vs. Tupac, Wu-Tang, Golden Era lyricism</li>
-        <li><strong>2000s:</strong> Mixtapes, 50 Cent, Kanye’s rise</li>
-        <li><strong>2010s–2020s:</strong> Trap, Drill, TikTok-era rap</li>
-      </ul>
-    </section>
-  </main>
+<div class="container">
+  <section class="hero">
+    <h2>Major Events Timeline (2010–2025)</h2>
+    <p>Color key: <span style="color:var(--green)">● Cultural</span> · <span style="color:var(--red)">● Beef/Tragedy</span> · <span style="color:var(--blue)">● Mainstream</span></p>
+  </section>
 
-  <footer>
-    <p>© 2025 On The Block. All rights reserved.</p>
-  </footer>
+  <section class="timeline">
+    
+    <div class="event">
+      <span class="marker green" tabindex="0" aria-label="Cultural marker"></span>
+      <div class="tooltip">Cultural moment</div>
+      <div class="meta">2011-06</div>
+      <p>Chief Keef uploads early videos like “Bang,” sparking a local wave. <a href="deep-dives.html#chief-keef">Read more</a></p>
+    </div>
+    <div class="event">
+      <span class="marker blue" tabindex="0" aria-label="Mainstream marker"></span>
+      <div class="tooltip">Mainstream recognition</div>
+      <div class="meta">2012-05</div>
+      <p>“I Don’t Like” remix with Kanye West pushes drill to the mainstream. <a href="deep-dives.html#drill-history">Read more</a></p>
+    </div>
+    <div class="event">
+      <span class="marker red" tabindex="0" aria-label="Beef/Tragedy marker"></span>
+      <div class="tooltip">Beef &amp; tragedy</div>
+      <div class="meta">2013-09</div>
+      <p>L’A Capone is killed in Chicago; scene mourns a rising talent. <a href="deep-dives.html#la-capone">Read more</a></p>
+    </div>
+    <div class="event">
+      <span class="marker green" tabindex="0" aria-label="Cultural marker"></span>
+      <div class="tooltip">Cultural moment</div>
+      <div class="meta">2015-05</div>
+      <p>Young Pappy is killed; remembered through viral street clips and anthems. <a href="deep-dives.html#young-pappy">Read more</a></p>
+    </div>
+    <div class="event">
+      <span class="marker blue" tabindex="0" aria-label="Mainstream marker"></span>
+      <div class="tooltip">Mainstream recognition</div>
+      <div class="meta">2018-03</div>
+      <p>Lil Durk inks major deals and pushes OTF into a new era. <a href="deep-dives.html#lil-durk">Read more</a></p>
+    </div>
+    <div class="event">
+      <span class="marker red" tabindex="0" aria-label="Beef/Tragedy marker"></span>
+      <div class="tooltip">Beef &amp; tragedy</div>
+      <div class="meta">2020-11</div>
+      <p>King Von is killed in Atlanta; industry-wide security debates follow. <a href="deep-dives.html#drill-history">Read more</a></p>
+    </div>
+    <div class="event">
+      <span class="marker green" tabindex="0" aria-label="Cultural marker"></span>
+      <div class="tooltip">Cultural moment</div>
+      <div class="meta">2025-02</div>
+      <p>Legacy tours and documentaries rekindle interest for a new generation. <a href="trending.html#keef-2025">Read more</a></p>
+    </div>
+
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <div>© 2025 On The Block — a hip hop history & culture project.</div>
+  </div>
+</footer>
+
 </body>
 </html>
